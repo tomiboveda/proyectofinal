@@ -1,0 +1,26 @@
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/nutricion";
+@import "components/suplementos";
+@import "components/ejercicios.scss";
+@import "base/MediaQuery";
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&display=swap");
+body{
+    font-family: "Playfair Display", serif;
+    background-color: rgb(229, 220, 195);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo {
+    color: #0d0e03;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    margin-top: 20px;
+  }
+

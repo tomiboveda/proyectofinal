@@ -1,0 +1,44 @@
+/*Menu*/
+@media only screen and (max-width: 480px) {
+
+
+}
+
+/*Suplementos*/
+@media only screen and (max-width: 480px) {
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .contenedor p {
+      font-size: 0.7rem;
+    }
+    .contenedor div {
+      width: 50%;
+      margin-bottom: 60px;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    .contenedor {
+      display: grid;
+      grid-template-rows: repeat(2, 330px);
+      grid-template-columns: repeat(2, 230px);
+      row-gap: 70px;
+      column-gap: 20px;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .contenedor {
+      display: grid;
+      grid-template-rows: repeat(3, 330px);
+      grid-template-columns: repeat(3, 230px);
+      row-gap: 70px;
+      column-gap: 40px;
+      text-align: center;
+      justify-content: center;
+    }
+  }

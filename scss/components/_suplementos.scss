@@ -1,0 +1,49 @@
+.contenedor {
+    display: grid;
+    grid-template-rows: repeat(3, 450px);
+    grid-template-columns: repeat(3, 350px);
+    row-gap: 60px;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+  }
+  .contenedor-1:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  .contenedor-2:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  .contenedor-3:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  .contenedor-4:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  .contenedor-5:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  .contenedor-6:hover {
+    /*transformación*/
+    transform: scale(1.1);
+    transition: all 0.8s;
+  }
+  
+  .contenedor div img {
+    width: 100%;
+    height: 100%;
+  }
+  .main-suplementos {
+    margin-top: 60px;
+  }

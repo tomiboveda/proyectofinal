@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&display=swap");
+header {
+  background-color: #aaa492;
+  width: 100%;
+}
+header div nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #aaa492 k;
+  flex-wrap: wrap;
+  padding-left: 0.5rem;
+  height: 4rem;
+}
+header div nav ul {
+  display: flex;
+  flex-direction: row;
+  background-color: #aaa492;
+  flex-wrap: wrap;
+  padding-left: 0.5rem;
+  height: 4rem;
+}
+header div nav ul .menu {
+  color: #020005;
+  font-size: 18px;
+  font-family: "Oswald";
+  padding: 12px 26px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header div nav ul .menu a {
+  text-decoration: none;
+  color: #080808;
+}
+
+main {
+  background-color: #e5dcc3;
+}
+main .portada img {
+  width: 100%;
+}
+
+.texto {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.carousel-item {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+footer {
+  background-color: #9a9483;
+  padding-top: 10px;
+  width: 100%;
+  bottom: 0px;
+  height: 70px;
+  left: 0px;
+  right: 0px;
+}
+
+.section-2 {
+  color: #3b3939;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-rows: repeat(3, 450px);
+  grid-template-columns: repeat(3, 350px);
+  row-gap: 60px;
+  column-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+
+.contenedor-1:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor-2:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor-3:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor-4:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor-5:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor-6:hover {
+  /*transformación*/
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.contenedor div img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-suplementos {
+  margin-top: 60px;
+}
+
+/*Menu*/
+@media only screen and (max-width: 480px) {
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+/*Suplementos*/
+@media only screen and (max-width: 480px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contenedor p {
+    font-size: 0.7rem;
+  }
+
+  .contenedor div {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .contenedor {
+    display: grid;
+    grid-template-rows: repeat(2, 330px);
+    grid-template-columns: repeat(2, 230px);
+    row-gap: 70px;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .contenedor {
+    display: grid;
+    grid-template-rows: repeat(3, 330px);
+    grid-template-columns: repeat(3, 230px);
+    row-gap: 70px;
+    column-gap: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #e5dcc3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo {
+  color: #0d0e03;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
